@@ -1,0 +1,10 @@
+id,size_m2,rooms,bathrooms,year_built,distance_center_km,has_elevator,price,property_age,price_per_m2,city_Bilbao,city_Madrid,city_Sevilla,city_Valencia
+1,80.0,3,2,2005,4.5,1,250000.0,21,3125.0,False,True,False,False
+2,60.0,2,1,2010,3.2,0,220000.0,16,3666.6666666666665,False,False,False,False
+3,82.5,4,2,2008,6.0,1,180000.0,18,2181.818181818182,False,False,False,True
+5,120.0,4,3,2018,2.0,1,350000.0,8,2916.6666666666665,False,True,False,False
+6,75.0,3,1,1998,5.0,0,210000.0,28,2800.0,True,False,False,False
+7,85.0,3,2,2012,4.75,1,275000.0,14,3235.294117647059,False,True,False,False
+8,95.0,4,2,2015,8.0,0,230000.0,11,2421.0526315789475,False,False,False,True
+9,70.0,2,1,2003,10.5,0,160000.0,23,2285.714285714286,False,False,True,False
+10,110.0,4,2,2020,1.8,1,410000.0,6,3727.2727272727275,False,False,False,False
