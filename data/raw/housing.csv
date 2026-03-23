@@ -1,0 +1,13 @@
+id,city,size_m2,rooms,bathrooms,year_built,distance_center_km,has_elevator,price
+1,Madrid,80,3,2,2005,4.5,yes,250000
+2,Barcelona,60,2,1,2010,3.2,no,220000
+3,Valencia,,4,2,2008,6.0,yes,180000
+4,Sevilla,90,3,2,2000,7.5,yes,
+5,Madrid,120,4,3,2018,2.0,yes,350000
+6,Bilbao,75,3,1,1998,5.0,no,210000
+7,Madrid,85,3,2,2012,,yes,275000
+8,Valencia,95,4,2,2015,8.0,no,230000
+9,Sevilla,70,2,1,2003,10.5,no,160000
+10,Barcelona,110,4,2,2020,1.8,yes,410000
+11,Madrid,80,3,2,2005,4.5,yes,250000
+12,Bilbao,65,2,1,1995,6.5,no,0
