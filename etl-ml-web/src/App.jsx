@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import Hero from "./sections/Hero"
 import EtlPhases from "./sections/EtlPhases"
 import Benefits from "./sections/Benefits"
+import UseCase from "./sections/UseCase"
 
 function PlaceholderSection({ id, title, text }) {
   return (
@@ -21,12 +22,7 @@ export default function App() {
       <Hero />
       <EtlPhases />
       <Benefits />
-
-      <PlaceholderSection
-        id="pipeline"
-        title="Sección pipeline próximamente"
-        text="Aquí mostraremos el flujo técnico orientado a Machine Learning."
-      />
+      <UseCase />
 
       <PlaceholderSection
         id="repo"
