@@ -3,6 +3,7 @@ import Hero from "./sections/Hero"
 import EtlPhases from "./sections/EtlPhases"
 import Benefits from "./sections/Benefits"
 import UseCase from "./sections/UseCase"
+import Tools from "./sections/Tools"
 
 function PlaceholderSection({ id, title, text }) {
   return (
@@ -23,6 +24,7 @@ export default function App() {
       <EtlPhases />
       <Benefits />
       <UseCase />
+      <Tools />
 
       <PlaceholderSection
         id="repo"
