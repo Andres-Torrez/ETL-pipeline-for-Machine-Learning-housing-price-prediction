@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import Hero from "./sections/Hero"
+import EtlPhases from "./sections/EtlPhases"
 
 function PlaceholderSection({ id, title, text }) {
   return (
@@ -17,12 +18,7 @@ export default function App() {
     <div className="min-h-screen bg-slate-950 text-white">
       <Navbar />
       <Hero />
-
-      <PlaceholderSection
-        id="etl"
-        title="Sección ETL próximamente"
-        text="Aquí añadiremos las fases de extracción, transformación y carga con diseño visual."
-      />
+      <EtlPhases />
 
       <PlaceholderSection
         id="pipeline"
