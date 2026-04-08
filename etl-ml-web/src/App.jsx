@@ -1,38 +1,40 @@
 import Navbar from "./components/Navbar"
 import Hero from "./sections/Hero"
 
+function PlaceholderSection({ id, title, text }) {
+  return (
+    <section id={id} className="mx-auto max-w-7xl px-6 py-16">
+      <div className="rounded-[28px] border border-white/10 bg-white/5 p-10 text-center backdrop-blur">
+        <h2 className="text-3xl font-bold text-white">{title}</h2>
+        <p className="mt-4 text-slate-400">{text}</p>
+      </div>
+    </section>
+  )
+}
+
 export default function App() {
   return (
     <div className="min-h-screen bg-slate-950 text-white">
       <Navbar />
       <Hero />
 
-      <section id="etl" className="mx-auto max-w-7xl px-6 py-16">
-        <div className="rounded-3xl border border-dashed border-white/10 bg-white/5 p-10 text-center">
-          <h2 className="text-3xl font-bold">Sección ETL próximamente</h2>
-          <p className="mt-4 text-slate-400">
-            Aquí añadiremos la explicación completa de Extract, Transform y Load.
-          </p>
-        </div>
-      </section>
+      <PlaceholderSection
+        id="etl"
+        title="Sección ETL próximamente"
+        text="Aquí añadiremos las fases de extracción, transformación y carga con diseño visual."
+      />
 
-      <section id="pipeline" className="mx-auto max-w-7xl px-6 py-16">
-        <div className="rounded-3xl border border-dashed border-white/10 bg-white/5 p-10 text-center">
-          <h2 className="text-3xl font-bold">Sección pipeline próximamente</h2>
-          <p className="mt-4 text-slate-400">
-            Aquí irá el flujo técnico del pipeline orientado a Machine Learning.
-          </p>
-        </div>
-      </section>
+      <PlaceholderSection
+        id="pipeline"
+        title="Sección pipeline próximamente"
+        text="Aquí mostraremos el flujo técnico orientado a Machine Learning."
+      />
 
-      <section id="repo" className="mx-auto max-w-7xl px-6 py-16">
-        <div className="rounded-3xl border border-dashed border-white/10 bg-white/5 p-10 text-center">
-          <h2 className="text-3xl font-bold">Repositorio próximamente</h2>
-          <p className="mt-4 text-slate-400">
-            Aquí mostraremos la estructura del proyecto y buenas prácticas.
-          </p>
-        </div>
-      </section>
+      <PlaceholderSection
+        id="repo"
+        title="Repositorio próximamente"
+        text="Aquí presentaremos la estructura del proyecto y las buenas prácticas."
+      />
     </div>
   )
 }
