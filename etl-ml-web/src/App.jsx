@@ -4,6 +4,7 @@ import EtlPhases from "./sections/EtlPhases"
 import Benefits from "./sections/Benefits"
 import UseCase from "./sections/UseCase"
 import Tools from "./sections/Tools"
+import Footer from "./components/Footer"
 
 function PlaceholderSection({ id, title, text }) {
   return (
@@ -31,6 +32,7 @@ export default function App() {
         title="Repositorio próximamente"
         text="Aquí presentaremos la estructura del proyecto y las buenas prácticas."
       />
+      <Footer />
     </div>
   )
 }
