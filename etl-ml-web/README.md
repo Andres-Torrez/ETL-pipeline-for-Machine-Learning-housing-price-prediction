@@ -1,16 +1,88 @@
-# React + Vite
+Aquí tienes **el mismo contenido pasado a Markdown**, sin añadir nada extra y corrigiendo únicamente la estructura para que sea válido:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```markdown
+# ETL + ML Web
 
-Currently, two official plugins are available:
+Landing interactiva desarrollada con React y Tailwind CSS para explicar de forma visual el proceso **ETL (Extract, Transform, Load)** aplicado a proyectos de **Machine Learning**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Descripción
 
-## React Compiler
+Este proyecto presenta una web moderna orientada a exposición académica y portfolio, con el objetivo de mostrar cómo un pipeline ETL transforma datos crudos en datasets preparados para entrenamiento, validación e inferencia en modelos de Machine Learning.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+La landing está diseñada para comunicar de forma clara:
+- las fases del ETL
+- los beneficios de preparar correctamente los datos
+- un caso práctico de ML
+- las herramientas más comunes del ecosistema
 
-## Expanding the ESLint configuration
+## Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Tailwind CSS
+- Lucide React
+- Framer Motion
+
+## Instalación
+
+Clona el repositorio y ejecuta:
+
+```bash
+npm install
+npm run dev
+```
+
+## Estructura del proyecto
+
+```
+etl-ml-web/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   └── Footer.jsx
+│   ├── sections/
+│   │   ├── Hero.jsx
+│   │   ├── EtlPhases.jsx
+│   │   ├── Benefits.jsx
+│   │   ├── UseCase.jsx
+│   │   └── Tools.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Secciones de la landing
+
+- Hero principal  
+- Fases ETL  
+- Beneficios del ETL  
+- Caso práctico de Machine Learning  
+- Herramientas del pipeline  
+- Footer  
+
+## Objetivo del proyecto
+
+El objetivo principal es construir una pieza visual y técnica que sirva tanto para:
+
+- explicar conceptos de ingeniería de datos y Machine Learning  
+- apoyar una exposición o píldora formativa  
+- mostrar una implementación moderna en portfolio  
+
+## Roadmap
+
+- [ ] Crear estructura inicial del repositorio  
+- [ ] Crear layout base de la landing  
+- [ ] Definir identidad visual de la landing  
+- [ ] Crear sección de fases ETL  
+- [ ] Crear sección de beneficios  
+- [ ] Crear caso práctico de ML  
+- [ ] Crear sección de herramientas  
+- [ ] Crear footer  
+- [ ] Preparar deploy del proyecto  
+```
